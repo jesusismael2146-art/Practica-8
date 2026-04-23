@@ -37,12 +37,12 @@ export function ContactSection() {
             </div>
           </div>
 
-          <div className="w-full h-[400px] bg-border rounded-3xl border-4 border-foreground/10 flex items-center justify-center relative overflow-hidden group">
-            <div className="absolute inset-0 bg-background/50" />
-            <div className="relative z-10 text-center p-6 bg-card rounded-2xl border-2 border-dashed border-muted-foreground shadow-lg group-hover:scale-105 transition-transform">
-              <MapPin size={48} className="mx-auto mb-4 text-muted-foreground" />
-              <p className="font-display text-xl text-muted-foreground">Aquí va el Mapa de Google</p>
-            </div>
+          <div className="w-full h-[400px] rounded-3xl border-4 border-foreground/10 overflow-hidden group shadow-xl">
+            <img
+              src="https://res.cloudinary.com/dbj2f8tbz/image/upload/v1776979976/Gemini_Generated_Image_9l4dmt9l4dmt9l4d_afepvx.png"
+              alt="Visítanos en DinoTortas"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
           </div>
 
         </div>
