@@ -1,0 +1,77 @@
+Actúa como un desarrollador web experto. Necesito que crees una aplicación web interactiva (Landing Page) para un negocio de comida llamado "DinoTortas". Es una tortería tradicional mexicana, pero con una temática inmersiva y divertida de dinosaurios y la prehistoria.
+
+Stack tecnológico requerido:
+
+Frontend: React (usando Vite).
+
+Estilos: Tailwind CSS.
+
+Iconos: Lucide React.
+
+Estilo Visual y Diseño:
+
+Paleta de colores: Tonos tierra (café, terracota, beige claro para el fondo) combinados con acentos en verde selva o verde reptil.
+
+Tipografía: Fuentes divertidas, gruesas y redondeadas para los títulos (que evoquen algo prehistórico o amigable), y una fuente limpia sans-serif para los párrafos.
+
+Diseño UI: Botones redondeados, tarjetas (cards) con sombras suaves, estilo familiar y rústico.
+
+Estructura de la página:
+
+1. Barra de Navegación (Header):
+
+Nombre "DinoTortas" con un icono de dinosaurio o huella.
+
+Enlaces: Inicio, Menú Jurásico, Nuestra Historia, Visítanos.
+
+Un botón/icono de "Carrito de compras" con un contador numérico al lado.
+
+2. Sección Hero (Inicio):
+
+Título gigante: "¡Bienvenidos a DINO-TORTAS!"
+
+Subtítulo: "El sabor más grande de la prehistoria. Disfruta de nuestras tortas monstruosas."
+
+Botón principal (CTA): "¡PIDE ONLINE!"
+
+Si es posible, un fondo o contenedor que parezca tierra o selva.
+
+3. Sección "Nuestro Menú Jurásico":
+
+Muestra un grid (cuadrícula) responsivo con tarjetas para cada producto.
+
+Cada tarjeta debe tener el nombre, una breve descripción cómica, el precio y un botón de "Añadir".
+
+Productos:
+
+T-Rex Milanesa: Torta monstruosa de milanesa con queso gratinado. ($80 MXN)
+
+Triceratops Cubana: La pesada con 3 carnes diferentes y su escudo protector de aguacate. ($95 MXN)
+
+Bronto-Rajas: Torta herbívora gigante de rajas poblanas, elote y crema. ($70 MXN)
+
+Pterodáctilo de Pollo: Pechuga de pollo a la plancha, ¡volando directo a tu mesa! ($75 MXN)
+
+Dino-Postre: Galleta gigante con chispas en forma de garra. ($30 MXN)
+
+4. Sección "Experiencia Dino-temática" (Historia):
+
+Un bloque con diseño de "cueva".
+
+Texto: "DinoTortas nació de la idea de fusionar el inigualable sabor callejero tradicional con la diversión del periodo Jurásico. ¡Una mordida y viajarás millones de años al pasado!"
+
+5. Sección de Contacto (Visítanos):
+
+Dirección: Av. Prehistoria 123, Col. Roma.
+
+Horario: 9:00 AM - 9:00 PM (Lunes a Domingo).
+
+Un rectángulo gris que funcione como "Placeholder" (marcador de posición) donde iría integrado un mapa de Google Maps.
+
+Funcionalidad requerida:
+
+La página debe ser 100% responsiva (verse bien en celulares y computadoras).
+
+Crea un estado simple en React (useState) para que, al darle clic a cualquier botón de "Añadir" en el menú, el número del carrito en la barra de navegación aumente en 1.
+
+Por favor, genera todo el código necesario en un solo archivo o distribuido en componentes lógicos para que la aplicación funcione inmediatamente.
