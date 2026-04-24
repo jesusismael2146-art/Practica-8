@@ -1,4 +1,5 @@
 import { MapPin, Clock } from "lucide-react";
+import { ContactForm } from "./ContactForm";
 
 export function ContactSection() {
   return (
@@ -45,6 +46,10 @@ export function ContactSection() {
             />
           </div>
 
+        </div>
+
+        <div className="max-w-3xl mx-auto mt-16">
+          <ContactForm />
         </div>
       </div>
     </section>
